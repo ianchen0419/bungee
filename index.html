@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="ja" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel="icon" href="inc/img/top/favicon.png" />
+	<meta name="title" content="Bungee Super Fly" />
+	<title>Bungee Super Fly</title>
+	<link rel="stylesheet prefetch" href="inc/lib/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet prefetch" href="style.css" />
+</head>
+<body onload="autoShow()" onclick="closeMenu(this, event)">
+	<header id="header">
+		<div></div>
+		<img src="inc/img/top/logo.png" alt="ロゴ" height="100" />
+		<div class="menu-icon" onclick="document.body.classList.add('menu-showed')">
+			<span class="menu-text">Menu</span>
+			<i class="fa fa-bars menu-bars"></i>
+		</div>
+	</header>
+	<nav id="menu">
+		<div class="menu-wrapper">
+			<a href="index.html" class="menu-item">home</a>
+			<a href="about-bungee-super-fly-workout.html" class="menu-item">about</a>
+			<a href="bungee-teacher-training.html" class="menu-item">teacher training</a>
+			<a href="bungee-equipment.html" class="menu-item">equipment</a>
+			<a href="locations.html" class="menu-item">locations</a>
+			<a href="contact.html" class="menu-item">contact</a>
+		</div>
+	</nav>
+	<div id="visual">
+		<div class="out-area">
+			<div class="slide1" style="z-index: 3" data-index=3></div>
+			<div class="slide2" style="z-index: 2" data-index=2></div>
+			<div class="slide3" style="z-index: 1" data-index=1></div>
+		</div>
+		<div class="arrow-area">
+			<button onclick="goPrev()">
+				<i class="fa fa-chevron-left fa-fw"></i>
+			</button>
+			<button onclick="goNext()">
+				<i class="fa fa-chevron-right fa-fw"></i>
+			</button>
+		</div>
+	</div>
+	<main id="contact">
+		<section>
+			<div class="wrapper-size">
+				<div class="column-area">
+					<div class="column-item fb20">
+						<h2 class="home-catch">WHAT IS<br>BUNGEE SUPER FLY®?</h2>
+					</div>
+					<div class="column-item">
+						<strong>Bungee Super Fly® combines resistance training and a cardiovascular workout, while being attached to a bungee cord. It has a super high fun-factor while enjoying an effective workout.</strong>
+						<p>Jumping in the air, increases your heart rate and you burn up to 700 calories per workout. The bungee gives a different dimension to burpees, push-ups and jumps, you'll be motivated to train your muscles in a different way.</p>
+					</div>
+				</div>
+				<div class="button-area right-text">
+					<a class="white-button" href="about-bungee-super-fly-workout.html">Read more</a>
+				</div>
+				<div class="image-area">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/6MXsnABjCyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+		<section class="section-orange">
+			<div class="wrapper-size">
+				<div class="column-area">
+					<div class="column-item">
+						<figure class="center-text">
+							<figcaption>TEACHER TRAINING</figcaption>
+							<img src="inc/img/top/training.png" alt="TEACHER TRAINING" width="300" />
+							<div class="button-area">
+								<a class="white-button" href="about-bungee-super-fly-workout.html">Read more</a>
+							</div>
+						</figure>
+					</div>
+					<div class="column-item">
+						<figure class="center-text">
+							<figcaption>EQUIPMENT</figcaption>
+							<img src="inc/img/top/equipment.png" alt="EQUIPMENT" width="300" />
+							<div class="button-area">
+								<a class="white-button" href="about-bungee-super-fly-workout.html">Read more</a>
+							</div>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-black">
+			<div class="wrapper-size">
+				<div class="column-area align-center">
+					<div class="column-item">
+						<figure class="center-text">
+							<img src="inc/img/top/limitless.png" alt="LIMITLESS" width="500" />
+						</figure>
+					</div>
+					<div class="column-item">
+						<h2>BENEFITS</h2>
+						<p>Bungee Super Fly will shape your insight on all exercises allowing you to evolve in every direction. As a resort, gym or instructor the added value is endless.﻿</p>
+						<ul class="pad_lt20">
+							<li>High intensity workout combining resistance training with cardio</li>
+							<li>Burn up to 700 calories in a 45-minute workout</li>
+							<li>A playful workout while hitting your goals</li>
+							<li>Fun for all ages and abilities from low risk recovery programs to high intensity results.</li>
+							<li>We developed the best, unique and practical bungee gear. The harness is adjustable from size xxs to xxl and you can adjust the bungee for people from 20 up to 150kg.</li>
+							<li>Bungee Super Fly® offers a new opportunity for a fun workout, for larger groups or intense personal contact.</li>
+						</ul>
+						<strong>THE POSSIBILITIES ARE ENDLESS</strong>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="wrapper-size">
+				<h2 class="center-text">NEWS</h2>
+				<div class="spacer h40"></div>
+				<div class="news-item">
+					<div class="news-date">2020.01.01</div>
+					<div class="news-type">導入情報</div>
+					<a href="javascript:;" class="news-link">ここにニュースを最新情報を載せます（クリックすると個別ページへ）</a>
+				</div>
+				<div class="news-item">
+					<div class="news-date">2020.01.01</div>
+					<div class="news-type">ニュース</div>
+					<a href="javascript:;" class="news-link">ここにニュースを最新情報を載せます（クリックすると個別ページへ）</a>
+				</div>
+				<div class="news-item">
+					<div class="news-date">2020.01.01</div>
+					<div class="news-type">導入情報</div>
+					<a href="javascript:;" class="news-link">ここにニュースを最新情報を載せます（クリックすると個別ページへ）</a>
+				</div>
+				<div class="news-item">
+					<div class="news-date">2020.01.01</div>
+					<div class="news-type">ニュース</div>
+					<a href="javascript:;" class="news-link">ここにニュースを最新情報を載せます（クリックすると個別ページへ）</a>
+				</div>
+				<div class="news-item">
+					<div class="news-date">2020.01.01</div>
+					<div class="news-type">導入情報</div>
+					<a href="javascript:;" class="news-link">ここにニュースを最新情報を載せます（クリックすると個別ページへ）</a>
+				</div>
+				<div class="news-item">
+					<div class="news-date">2020.01.01</div>
+					<div class="news-type">ニュース</div>
+					<a href="javascript:;" class="news-link">ここにニュースを最新情報を載せます（クリックすると個別ページへ）</a>
+				</div>
+				<div class="button-area right-text">
+					<a href="news.html" class="white-button">過去のニュース一覧</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="wrapper-size">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<img src="inc/img/top/logo_white.png" alt="ロゴ" />
+				</div>
+				<div class="footer-address">
+					BUNGEE SUPER FLY®<br>
+					株式会社Natural Body Space<br>
+					東京都中央区東日本橋2丁目25-4　サンライズ升和ビル5階<br>
+					TEL. 03-6869-3927
+				</div>
+				<div class="footer-social">
+					<a href="" class="social-button">
+						<i class="fa fa-facebook fa-fw fa-2x"></i>
+					</a>
+					<a href="" class="social-button">
+						<i class="fa fa-instagram fa-fw fa-2x"></i>
+					</a>
+					<a href="" class="social-button">
+						<i class="fa fa-envelope-o fa-fw fa-2x"></i>
+					</a>
+				</div>
+			</div>
+			<div class="footer-copyright">Copyright© Natural Body Space Co., Ltd. All rights reserved.</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
