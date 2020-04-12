@@ -78,12 +78,12 @@
 							<span>サービスに関して</span>
 						</label>
 						<label class="radio">
-							<input type="radio" name="your-type" />
+							<input type="radio" name="your-type" data-label="商品導入に関して" />
 							<div class="widget"></div>
 							<span>商品導入に関して</span>
 						</label>
 						<label class="radio">
-							<input type="radio" name="your-type" />
+							<input type="radio" name="your-type" data-label="インストラクター研修に関して" />
 							<div class="widget"></div>
 							<span>インストラクター研修に関して</span>
 						</label>
@@ -110,5 +110,15 @@
 	</main>
 	<footer id="footer"></footer>
 	<script type="text/javascript" src="script.js"></script>
+	<script>
+		var prevLabel=decodeURIComponent(location.href.split('#').pop());
+		if(prevLabel==='商品導入に関して'){
+			document.querySelector('input[data-label="商品導入に関して"]').checked=true;
+		}
+
+		if(prevLabel==='インストラクター研修に関して'){
+			document.querySelector('input[data-label="インストラクター研修に関して"]').checked=true;
+		}
+	</script>
 </body>
 </html>

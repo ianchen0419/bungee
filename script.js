@@ -1,4 +1,4 @@
-var nowPath=location.href.split('/').pop();
+var nowPath=location.href.split('/').pop().split('#').shift();
 
 //header.html load
 var headerXhr=new XMLHttpRequest();
