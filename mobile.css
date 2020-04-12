@@ -1,0 +1,109 @@
+* {
+	font-size: 14px;
+}
+
+html, body {
+	min-width: auto;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+	height: auto;
+}
+
+#menu {
+	min-width: auto;
+	width: 100vw;
+}
+
+.menu-wrapper {
+	width: 80%;
+	padding: 0;
+}
+
+#menu a {
+	padding: 20px;
+}
+
+#header img {
+	height: 50px;
+	width: auto;
+}
+
+#header {
+	height: 60px;
+}
+
+.menu-icon .menu-text {
+	display: none;
+}
+
+div[class^='slide'] {
+	height: 200px;
+}
+
+.arrow-area {
+	display: none;
+}
+
+.topage-title {
+	font-size: 24px;
+    background: #F60;
+    padding: 30px 0;
+    top: 184px;
+    transform: none;
+}
+
+.topage-visual {
+	height: 350px;
+}
+
+.column-item {
+	flex-basis: 100% !important;
+}
+
+.column-area {
+	flex-wrap: wrap;
+}
+
+.column-item+.column-item {
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+.white-button, .orange-button {
+	font-size: 14px;
+	padding: 8px 25px;
+}
+
+.news-item * {
+	margin-right: 0;
+}
+
+.news-date {
+	margin-right: 10px;
+}
+
+.news-item {
+	flex-wrap: wrap;
+	margin: 25px 0;
+}
+
+.news-item .news-type {
+	font-size: 12px;
+	width: 60px;
+    padding: 2px 5px;
+}
+
+.news-item .news-link {
+	margin-top: 10px;
+	flex-basis: 100%;
+}
