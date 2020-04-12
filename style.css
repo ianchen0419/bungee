@@ -310,10 +310,6 @@ section {
 	color: #fff;
 }
 
-h2 {
-	font-size: 20px;
-}
-
 .pad_lt20 {
 	padding-left: 20px;
 }
@@ -354,7 +350,6 @@ h2 {
 
 #footer .footer-content {
 	display: flex;
-	/*justify-content: space-between;*/
 	align-items: center;
 }
 
