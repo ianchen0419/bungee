@@ -91,6 +91,13 @@ function autoShow(){
 	},4000)
 }
 
+// menu open
+var scrollbarWidth=window.innerWidth-document.body.clientWidth;
+function openMenu(){
+	document.body.style.paddingRight=scrollbarWidth+'px';
+	document.body.classList.add('menu-showed');
+}
+
 //menu close
 function closeMenu(th, e){
 	if(th.classList.contains('menu-showed')){
@@ -98,6 +105,7 @@ function closeMenu(th, e){
 			return;
 		}else{
 			document.body.classList.remove('menu-showed');
+			document.body.style.paddingRight='';
 		}
 	}
 }
