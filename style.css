@@ -464,10 +464,10 @@ section {
 }
 
 .radio input:checked+.widget {
-	background: radial-gradient(cadetblue 45%, #fff 50%);
-	border-color: cadetblue;
+	background: radial-gradient(#f60 45%, #fff 50%);
+	border-color: #f60;
 }
 
 .radio input:checked~span {
-	color: cadetblue;
+	color: #f60;
 }
